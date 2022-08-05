@@ -5,14 +5,16 @@ const PORT = 8000
 const mongoose = require("mongoose")
 require("dotenv").config()
 const TodoTask = require('./models/todotask')
+const cors = require('cors')
 
 //set middleware
 app.set("view engine", "ejs")
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }))
+app.use(cors())
 
 //process.env to guide code to the appropriate location
-mongoose.connect(process.env.DB_CONNECTION,
+mongoose.connect(process.env.DB_STRING,
     { useNewUrlParser: true },
     () => { console.log('Connected to db!') }
 )
@@ -86,4 +88,4 @@ app
         })
     })
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
+app.listen(process.env.PORT || PORT, () => console.log(`Server is running on port ${PORT}`))
