@@ -4,7 +4,7 @@ ADD, EDIT, AND DELETE TASKS
 
 **Link to project:** https://crud-todolist-app.herokuapp.com/
 
-![alt text] https://github.com/VENGEAANCE/CRUD-Todo-List-App/blob/main/todo-list.png
+![alt text] (https://github.com/VENGEAANCE/CRUD-Todo-List-App/blob/main/todo-list.png)
 
 ## How It's Made:
 
