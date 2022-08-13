@@ -4,7 +4,7 @@ ADD, EDIT, AND DELETE TASKS
 
 **Link to project:** https://crud-todolist-app.herokuapp.com/
 
-![image info](./photo/todo-list.png)
+![image info] (ist.png)
 
 ## How It's Made:
 
