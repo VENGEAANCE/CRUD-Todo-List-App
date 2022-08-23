@@ -19,7 +19,7 @@ Started with installing my packages, setup my modules by requiring each one. Add
 ## Lessons Learned:
 .env file hides confidential information such as MongoURI so documents cannot be accessed.
 
-MVC helps us struture our code by breaking into pieces, resulting in cleaner and more efficient code. Also, when working collaboratively, other enginners can make changes without breaking the code entirely resulting in easier debugging.
+Model, view, Controller (MVC) helps us structure our code by breaking it into pieces, resulting in cleaner and more efficient code. Also, when working collaboratively, other engineers can make changes without breaking the code entirely, resulting in easier debugging.
 
 
 ## Examples:
