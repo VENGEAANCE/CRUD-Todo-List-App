@@ -16,4 +16,4 @@ const todoTaskSchema = new mongoose.Schema({
 
 //export our schema as a model to build documents
 
-module.exports = mongoose.model('todoTask', todoTaskSchema, 'tasks')
+module.exports = mongoose.model('TodoTask', todoTaskSchema, 'tasks')
