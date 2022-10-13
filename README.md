@@ -14,6 +14,7 @@ Started with installing my packages, setup my modules by requiring each one. Add
 
 ## Optimizations
 *Refactored code using MVC architecture*
+*pending: updating view with react*
 
 
 ## Lessons Learned:
